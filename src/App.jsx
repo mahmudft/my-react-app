@@ -4,13 +4,15 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Navbar from './components/Navbar/Navbar'
 import User from './components/Card/User'
+import List from './components/List/List'
+import Terminal from './components/StateFull/Terminal'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-     <Navbar/>
+     <Terminal/>
     </>
   )
 }
